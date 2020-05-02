@@ -189,7 +189,7 @@ var answerArray = setupAnswerArray(word);
 
 
 var remainingLetters = word.length;
-var remainingPoints = jfcrremainingPoint()
+var remainingPoints = remainingPoint()
 var usedLetters = [];
 
 while (remainingPoints > 0 && remainingLetters > 0) {
